@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Spline+Sans:wght@400;500;600;700&display=swap');
+body{
+     font-family:"spline sans",sans-serif;
+     color:#777;
+     line-height:1.7;
+}
+ h1,h2,h3,h4,h4,h5{
+     font-weight:600;
+      color:#222;
+ }
+ a{
+    color:#222;
+    text-decoration:none;
+    transition:all 0.4s;
+    font-weight:600;
+ }
+  a:hover{
+    color:#F58d17;
+  }
+  
+  .btn{
+     border-radius:0;
+     padding :14px 38px;
+  }
+  .btn-brand{
+    color:white;
+    font-weight:500;
+    border-color: #F58d17;
+    background-color: #F58d17;
+  }
+  .btn-brans:hoover{
+    border-color: #ca7310;
+    background-color: #ca7310;
+    color:white
+  }
+   .slide-1{ 
+    background:url(../images/cover1.jpg);
+    background-size: cover;
+    
+   }
+   .slide-2{
+     background: url(../images/cover2.jpg);
+     background-size: cover;
+   }
+   .slide-3{
+     background: url(../images/cover3.jpg);
+     background-size: cover;
+   }
+   @media (max-width: 767px) {
+    .about-section {
+      margin-left: 10px; /* Adjust the value as needed */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .about-section {
+      margin-left: 20px; /* Adjust the value as needed */
+    }
+  }
+  
+  .intro-text{
+   margin-bottom: 40px;
+   text-align:center;
+   justify-content: center;
+}
+  
+   .intro-text p{
+    max-width:500px;
+     margin:16px auto 0px auto;
+   }
+    
+.imgsize{
+   width:100px
+}
+ .buttoncolor{
+   background-color:  #F58d17;
+    border: none;
+      color:white;
+      margin-right: 10px; 
+       margin-bottom:10px;
+
+ }
+ .featurebackground{
+  background: url(../images/cover2.jpg);
+  background-size: cover;
+  color: white
+  
+ }
+ .featurewhite {
+   color: white;
+ }
+  .iconcolor{
+     background-color: #F58d17  ;
+      height:50px;
+       width:50px;
+       padding: 15px;
+  }
+  
+  .teamimg{
+     width:120px;
+    
+  }
+   .reservationsysystem{
+    margin-right: 10px; 
+    margin-bottom:10px;
+   
+   }
+   .formpadding {
+    padding-left: 10px;
+    padding-right: 10px;
+     width:100px;
+     justify-content: center;
+     align-items: center;
+     color: #F58d17;
+  }
+  
+  
+  .submitbtn {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+   .footersection{
+      
+    background-color: #F58d17 ; 
+   }
+  
+  
